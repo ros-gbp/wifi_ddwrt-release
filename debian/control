@@ -1,0 +1,12 @@
+Source: ros-hydro-wifi-ddwrt
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 7.0.50~), ros-hydro-catkin, ros-hydro-message-generation, ros-hydro-std-msgs
+Homepage: http://ros.org/wiki/wifi_ddwrt
+Standards-Version: 3.9.2
+
+Package: ros-hydro-wifi-ddwrt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-mechanize, ros-hydro-geometry-msgs, ros-hydro-message-runtime, ros-hydro-nav-msgs, ros-hydro-pr2-msgs, ros-hydro-rospy, ros-hydro-std-msgs, ros-hydro-tf, ros-hydro-visualization-msgs
+Description: Access to the DD-WRT wifi
