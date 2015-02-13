@@ -1,0 +1,12 @@
+Source: ros-indigo-wifi-ddwrt
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin, ros-indigo-message-generation, ros-indigo-std-msgs
+Homepage: http://ros.org/wiki/wifi_ddwrt
+Standards-Version: 3.9.2
+
+Package: ros-indigo-wifi-ddwrt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-mechanize, ros-indigo-geometry-msgs, ros-indigo-message-runtime, ros-indigo-nav-msgs, ros-indigo-pr2-msgs, ros-indigo-rospy, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-visualization-msgs
+Description: Access to the DD-WRT wifi
