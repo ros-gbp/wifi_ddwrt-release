@@ -1,0 +1,12 @@
+Source: ros-melodic-wifi-ddwrt
+Section: misc
+Priority: extra
+Maintainer: Austin Hendrix <ahendrix@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-message-generation, ros-melodic-std-msgs
+Homepage: http://ros.org/wiki/wifi_ddwrt
+Standards-Version: 3.9.2
+
+Package: ros-melodic-wifi-ddwrt
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-mechanize, ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-nav-msgs, ros-melodic-pr2-msgs, ros-melodic-rospy, ros-melodic-std-msgs, ros-melodic-tf, ros-melodic-visualization-msgs
+Description: Access to the DD-WRT wifi
