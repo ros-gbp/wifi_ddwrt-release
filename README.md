@@ -1,3 +1,26 @@
+## wifi_ddwrt (noetic) - 0.2.0-1
+
+The packages in the `wifi_ddwrt` repository were released into the `noetic` distro by running `/usr/bin/bloom-release wifi_ddwrt --track noetic --rosdistro noetic` on `Mon, 10 May 2021 02:56:29 -0000`
+
+The `wifi_ddwrt` package was released.
+
+Version of package(s) in repository `wifi_ddwrt`:
+
+- upstream repository: https://github.com/ros-drivers/wifi_ddwrt.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.2.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.1`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## wifi_ddwrt (melodic) - 0.2.0-0
 
 The packages in the `wifi_ddwrt` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic wifi_ddwrt` on `Sat, 30 Mar 2019 23:24:07 -0000`
